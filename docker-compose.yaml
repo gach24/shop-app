@@ -17,7 +17,7 @@ services:
       - 80:3000
     depends_on:
       - db
-    container_name: frontend
+    container_name: backend
     environment:
       - DB_PASSWORD=${DB_PASSWORD}
       - DB_NAME=${DB_NAME}
